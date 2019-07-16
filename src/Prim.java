@@ -68,11 +68,8 @@ public class Prim {
         return result;
     }
 
-
     private static class Graph {
-
         private Node[] nodes;
-
         private Path[] paths;
 
         //deep first search
@@ -200,7 +197,6 @@ public class Prim {
     private static class Path {
         private Node[] nodes;
         private Integer length;
-
 
         public Node[] getNodes() {
             return nodes;
