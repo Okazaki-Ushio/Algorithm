@@ -31,7 +31,6 @@ public class Greedy {
         return collect;
     }
 
-
     public static HashMap<String, Set<String>> initial() {
         Set<String> K1 = new HashSet<>();
         Set<String> K2 = new HashSet<>();
